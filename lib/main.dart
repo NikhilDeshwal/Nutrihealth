@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:nutrihealth/start%20page/view/startpage.dart';
+import 'package:nutrihealth/splash%20screen%20page/view/splashscreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         //home: SplashScreen(),
         //home: Location(),
-        //home: Media(),
-        home: StartPage());
+        //home: Sign_up_page(),
+        home: SplashScreen());
   }
 }
