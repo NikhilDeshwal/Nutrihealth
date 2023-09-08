@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:nutrihealth/forget%20password%20page/view/forget_page.dart';
 import 'package:nutrihealth/signup%20page/view/signup_page.dart';
-import 'dart:js_util';
+
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Login_page extends StatelessWidget {
@@ -159,7 +160,17 @@ class Login_page extends StatelessWidget {
               ),
             ),
             SizedBox(height: 4),
-            Center(
+            GestureDetector(
+              onTap: () {
+                // Replace the code below with the navigation logic to the next page.
+                // For example, you can use Navigator to push a new route.
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) =>
+                          Forget_page()), // Replace NextPage() with your next page widget.
+                );
+              },
               child: Container(
                 margin: EdgeInsets.only(top: 4.0, left: 269.0, right: 21.0),
                 width: 100,

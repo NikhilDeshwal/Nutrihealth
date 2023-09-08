@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nutrihealth/get%20page/view/get_page.dart';
+import 'package:nutrihealth/signup%20page/view/signup_page.dart';
 
 class StartedPage extends StatelessWidget {
   @override
@@ -81,7 +81,7 @@ class StartedWidget extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (content) => GetPage()));
+                      MaterialPageRoute(builder: (content) => Sign_up_page()));
                 },
                 child: Text(
                   "Skip",

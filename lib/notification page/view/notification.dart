@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nutrihealth/start%20page/view/startpage.dart';
+import 'package:nutrihealth/page%20slider%20page/view/page_slider.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class NotificationPage extends StatelessWidget {
@@ -45,7 +45,7 @@ class NotificationWidget extends StatelessWidget {
           GestureDetector(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (content) => StartPage()));
+                  MaterialPageRoute(builder: (content) => PageSlider()));
             },
             child: Text(
               "Allow",
@@ -63,7 +63,7 @@ class NotificationWidget extends StatelessWidget {
           GestureDetector(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (content) => StartPage()));
+                  MaterialPageRoute(builder: (content) => PageSlider()));
             },
             child: Text(
               "Deny",

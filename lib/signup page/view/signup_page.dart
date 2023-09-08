@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:nutrihealth/login%20page/view/login_page.dart';
 
 class Sign_up_page extends StatelessWidget {
   @override
@@ -160,29 +161,7 @@ class Sign_up_page extends StatelessWidget {
             SizedBox(height: 19),
             Row(
               children: [
-                Container(
-                  margin: EdgeInsets.only(left: 62.0, right: 4.0),
-                  width: 12.0, // Width of the container
-                  height: 12.0,
-                  child: TextField(
-                    decoration: InputDecoration(
-                      // labelText: 'Strong Password', // Editable hint text
-                      fillColor: Color(0xffF3F3F3), // Background color
-                      filled: true,
-                      border: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Color(
-                              0xffCBCBCB), // Set your desired border color here
-                        ),
-                        borderRadius: BorderRadius.circular(
-                            3.0), // Customize border radius
-                      ),
-                    ),
-                    //   onTap: () {
-                    //     Navigator.pop(context);
-                    //   },
-                  ),
-                ),
+                CheckboxContainer(),
                 SizedBox(width: 4),
                 Container(
                   //margin: EdgeInsets.only(top: 19.0, left: 4.0),
@@ -202,85 +181,128 @@ class Sign_up_page extends StatelessWidget {
               ],
             ),
             SizedBox(height: 48),
-            // GestureDetector(
-            //     onTap: () {
-            //       // Replace the code below with the navigation logic to the next page.
-            //       // For example, you can use Navigator to push a new route.
-            //       Navigator.push(
-            //         context,
-            //         MaterialPageRoute(
-            //             builder: (context) =>
-            //                 Login_page()), // Replace NextPage() with your next page widget.
-            //       );
-            //     },
-            //   child:
-            Container(
-              width: 300.0, // Width of the container
-              height: 50.0, // Height of the container
-              decoration: BoxDecoration(
-                color: Color(0xff40A06C), // Background color
-                borderRadius:
-                    BorderRadius.circular(8.0), // Customize border radius
-              ),
-              child: Center(
-                child: Text(
-                  'Sign up', // Text content
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Color(0xffFCFCFC),
-                    fontSize: 20,
-                    fontFamily: GoogleFonts.poppins().fontFamily,
-                    fontWeight: FontWeight.w700,
+            GestureDetector(
+              onTap: () {
+                // Replace the code below with the navigation logic to the next page.
+                // For example, you can use Navigator to push a new route.
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) =>
+                          Login_page()), // Replace NextPage() with your next page widget.
+                );
+              },
+              child: Container(
+                width: 300.0, // Width of the container
+                height: 50.0, // Height of the container
+                decoration: BoxDecoration(
+                  color: Color(0xff40A06C), // Background color
+                  borderRadius:
+                      BorderRadius.circular(8.0), // Customize border radius
+                ),
+                child: Center(
+                  child: Text(
+                    'Sign up', // Text content
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Color(0xffFCFCFC),
+                      fontSize: 20,
+                      fontFamily: GoogleFonts.poppins().fontFamily,
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                 ),
               ),
             ),
-            //),
             SizedBox(height: 33),
-            // GestureDetector(
-            //   onTap: () {
-            //     // Replace the code below with the navigation logic to the next page.
-            //     // For example, you can use Navigator to push a new route.
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(
-            //           builder: (context) =>
-            //               Login_page()), // Replace NextPage() with your next page widget.
-            //     );
-            //   },
-            //child:
-            Container(
-              //margin: EdgeInsets.only(top: 19.0, left: 4.0),
-              width: 169,
-              height: 20,
-              child: Row(
-                children: [
-                  Text(
-                    "Already a member? ",
-                    //textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.black, // Change this color to black
-                      fontSize: 13,
-                      fontWeight: FontWeight.w700,
-                      fontFamily: GoogleFonts.poppins().fontFamily,
+            GestureDetector(
+              onTap: () {
+                // Replace the code below with the navigation logic to the next page.
+                // For example, you can use Navigator to push a new route.
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) =>
+                          Login_page()), // Replace NextPage() with your next page widget.
+                );
+              },
+              child: Container(
+                //margin: EdgeInsets.only(top: 19.0, left: 4.0),
+                width: 169,
+                height: 20,
+                child: Row(
+                  children: [
+                    Text(
+                      "Already a member? ",
+                      //textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Colors.black, // Change this color to black
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        fontFamily: GoogleFonts.poppins().fontFamily,
+                      ),
                     ),
-                  ),
-                  Text(
-                    "Login",
-                    //textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.green, // Change this color to green
-                      fontSize: 13,
-                      fontWeight: FontWeight.w700,
-                      fontFamily: GoogleFonts.poppins().fontFamily,
+                    Text(
+                      "Login",
+                      //textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Colors.green, // Change this color to green
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        fontFamily: GoogleFonts.poppins().fontFamily,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
-            //),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class CheckboxContainer extends StatefulWidget {
+  @override
+  _CheckboxContainerState createState() => _CheckboxContainerState();
+}
+
+class _CheckboxContainerState extends State<CheckboxContainer> {
+  bool isChecked = false;
+
+  @override
+  Widget build(BuildContext context) {
+    double boxSize = 12.0; // Define the size of the container and icon
+
+    return GestureDetector(
+      onTap: () {
+        setState(() {
+          isChecked = !isChecked; // Toggle the checkbox state
+        });
+      },
+      child: Container(
+        margin: EdgeInsets.only(left: 62.0, right: 4.0),
+        width: boxSize,
+        height: boxSize,
+        decoration: BoxDecoration(
+          color: isChecked
+              ? Color(0xff40A06C)
+              : Color(0xffF3F3F3), // Background color
+          borderRadius:
+              BorderRadius.circular(boxSize / 2.0), // Circle border radius
+          border: Border.all(
+            color: isChecked ? Color(0xff40A06C) : Color(0xffCBCBCB),
+          ),
+        ),
+        child: isChecked
+            ? Icon(
+                Icons.check,
+                color: Colors.white,
+                size: boxSize *
+                    0.7, // Set the icon size as a fraction of the container size
+              )
+            : null,
       ),
     );
   }

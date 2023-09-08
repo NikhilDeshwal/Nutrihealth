@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-
+import 'package:nutrihealth/forget%20password%20page/view/forget_page.dart';
+import 'package:nutrihealth/home%20page/view/home_page.dart';
+import 'package:nutrihealth/signup%20page/view/signup_page.dart';
 import 'package:nutrihealth/splash%20screen%20page/view/splashscreen.dart';
 
 void main() {
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         //home: SplashScreen(),
         //home: Location(),
-        //home: Sign_up_page(),
-        home: SplashScreen());
+        // home: (),
+        home: Home_Page());
   }
 }
