@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nutrihealth/book%20page/view/book_page.dart';
 import 'package:nutrihealth/call%20page/view/call_page.dart';
 import 'package:nutrihealth/forget%20password%20page/view/forget_page.dart';
 import 'package:nutrihealth/home%20page/view/home_page.dart';
@@ -14,11 +15,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
-      //home: Home_Page(),
-      //home: call_page(),
-      //home: Nutritionist_page()
-    );
+        debugShowCheckedModeBanner: false,
+        //home: SplashScreen(),
+        //home: Home_Page(),
+        //home: call_page(),
+        home: book_page());
   }
 }
