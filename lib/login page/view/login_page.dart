@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nutrihealth/forget%20password%20page/view/forget_page.dart';
+import 'package:nutrihealth/home%20page/view/home_page.dart';
 import 'package:nutrihealth/signup%20page/view/signup_page.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
@@ -196,7 +197,7 @@ class Login_page extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                         builder: (context) =>
-                            Login_page()), // Replace NextPage() with your next page widget.
+                            Home_Page()), // Replace NextPage() with your next page widget.
                   );
                 },
                 child: Container(

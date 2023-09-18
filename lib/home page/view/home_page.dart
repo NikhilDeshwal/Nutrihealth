@@ -238,134 +238,136 @@ class homewidget extends StatelessWidget {
             ),
             Row(
               children: [
-                Column(
-                  children: [
-                    Container(
-                      margin: EdgeInsets.only(left: 13, top: 3),
-                      width: 190.96, // Width of the container
-                      height: 264.0, // Height of the container
-                      decoration: BoxDecoration(
-                        color: Color(0xffFFFFFF), // Background color
-                        borderRadius: BorderRadius.circular(
-                            12.0), // Customize border radius
+                Container(
+                  margin: EdgeInsets.only(left: 13, top: 3),
+                  width: 190.96, // Width of the container
+                  height: 264.0, // Height of the container
+                  decoration: BoxDecoration(
+                    color: Color(0xffFFFFFF), // Background color
+                    borderRadius:
+                        BorderRadius.circular(12.0), // Customize border radius
+                  ),
+                  child: Column(
+                    children: [
+                      Container(
+                        // margin: EdgeInsets.only(
+                        //     top: 80.0,
+                        //     left: 48.0,
+                        //     right: 38.0), // Add margin to separate from app bar
+                        child: Image.asset(
+                          width: 190.0, // Adjust the width as needed
+                          height: 180.0,
+                          'assets/images/home_page_pfirst.png', // Replace with the path to your image
+                          // width: 190.0, // Adjust the width as needed
+                          // height: 100.0, // Adjust the height as needed
+                        ),
                       ),
-
-                      // margin: EdgeInsets.only(
-                      //     top: 80.0,
-                      //     left: 48.0,
-                      //     right: 38.0), // Add margin to separate from app bar
-                      child: Image.asset(
-                        width: 190.0, // Adjust the width as needed
-                        height: 100.0,
-                        'assets/images/home_page_pfirst.png', // Replace with the path to your image
-                        // width: 190.0, // Adjust the width as needed
-                        // height: 100.0, // Adjust the height as needed
-                      ),
-                    ),
-                    SizedBox(height: 1),
-                    Container(
-                      width: 134,
-                      height: 25,
-                      child: Center(
-                        child: Text(
-                          'Dr.Swapna', // Text content
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Color(0xff333333),
-                            fontSize: 18,
-                            fontFamily: GoogleFonts.poppins().fontFamily,
-                            fontWeight: FontWeight.w500,
+                      SizedBox(height: 1),
+                      Container(
+                        width: 134,
+                        height: 25,
+                        child: Center(
+                          child: Text(
+                            'Dr.Swapna', // Text content
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color(0xff333333),
+                              fontSize: 18,
+                              fontFamily: GoogleFonts.poppins().fontFamily,
+                              fontWeight: FontWeight.w500,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    Container(
-                      width: 98,
-                      height: 14,
-                      child: Center(
-                        child: Text(
-                          'Nutritionist', // Text content
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Color(0xff333333),
-                            fontSize: 12,
-                            fontFamily: GoogleFonts.rubik().fontFamily,
-                            fontWeight: FontWeight.w300,
+                      Container(
+                        width: 98,
+                        height: 14,
+                        child: Center(
+                          child: Text(
+                            'Nutritionist', // Text content
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color(0xff333333),
+                              fontSize: 12,
+                              fontFamily: GoogleFonts.rubik().fontFamily,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    Container(
-                      child: Image.asset(
-                        'assets/images/home_page_star.png', // Replace with the path to your image
-                        width: 80.0, // Adjust the width as needed
-                        height: 12.0, // Adjust the height as needed
+                      Container(
+                        child: Image.asset(
+                          'assets/images/home_page_star.png', // Replace with the path to your image
+                          width: 80.0, // Adjust the width as needed
+                          height: 12.0, // Adjust the height as needed
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-                Column(
-                  children: [
-                    Container(
-                      margin: EdgeInsets.only(left: 1),
-                      width: 190.96, // Width of the container
-                      height: 264.0, // Height of the container
-                      decoration: BoxDecoration(
-                        color: Color(0xffFFFFFF), // Background color
-                        borderRadius: BorderRadius.circular(
-                            8.0), // Customize border radius
+                Container(
+                  margin: EdgeInsets.only(left: 1),
+                  width: 190.96, // Width of the container
+                  height: 264.0, // Height of the container
+                  decoration: BoxDecoration(
+                    color: Color(0xffFFFFFF), // Background color
+                    borderRadius:
+                        BorderRadius.circular(8.0), // Customize border radius
+                  ),
+                  child: Column(
+                    children: [
+                      Container(
+                        // margin: EdgeInsets.only(
+                        //     top: 80.0,
+                        //     left: 48.0,
+                        //     right: 38.0), // Add margin to separate from app bar
+                        child: Image.asset(
+                          'assets/images/home_page_psecond.png', // Replace with the path to your image
+                          width: 190.0, // Adjust the width as needed
+                          height: 180.0, // Adjust the height as needed
+                        ),
                       ),
-
-                      // margin: EdgeInsets.only(
-                      //     top: 80.0,
-                      //     left: 48.0,
-                      //     right: 38.0), // Add margin to separate from app bar
-                      child: Image.asset(
-                        'assets/images/home_page_psecond.png', // Replace with the path to your image
-                        width: 190.0, // Adjust the width as needed
-                        height: 100.0, // Adjust the height as needed
-                      ),
-                    ),
-                    Container(
-                      width: 134,
-                      height: 25,
-                      child: Center(
-                        child: Text(
-                          'Dr.Mithali', // Text content
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Color(0xff333333),
-                            fontSize: 18,
-                            fontFamily: GoogleFonts.poppins().fontFamily,
-                            fontWeight: FontWeight.w500,
+                      Container(
+                        width: 134,
+                        height: 25,
+                        child: Center(
+                          child: Text(
+                            'Dr.Mithali', // Text content
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color(0xff333333),
+                              fontSize: 18,
+                              fontFamily: GoogleFonts.poppins().fontFamily,
+                              fontWeight: FontWeight.w500,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    Container(
-                      width: 98,
-                      height: 14,
-                      child: Center(
-                        child: Text(
-                          'Nutritionist', // Text content
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Color(0xff333333),
-                            fontSize: 12,
-                            fontFamily: GoogleFonts.rubik().fontFamily,
-                            fontWeight: FontWeight.w300,
+                      Container(
+                        width: 98,
+                        height: 14,
+                        child: Center(
+                          child: Text(
+                            'Nutritionist', // Text content
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color(0xff333333),
+                              fontSize: 12,
+                              fontFamily: GoogleFonts.rubik().fontFamily,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    Container(
-                      child: Image.asset(
-                        'assets/images/home_page_star.png', // Replace with the path to your image
-                        width: 80.0, // Adjust the width as needed
-                        height: 12.0, // Adjust the height as needed
+                      Container(
+                        child: Image.asset(
+                          'assets/images/home_page_star.png', // Replace with the path to your image
+                          width: 80.0, // Adjust the width as needed
+                          height: 12.0, // Adjust the height as needed
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ),
