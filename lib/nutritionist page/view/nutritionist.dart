@@ -42,7 +42,7 @@ class Nutritionist_page extends StatelessWidget {
             SizedBox(height: 36),
             Container(
               margin: EdgeInsets.only(left: 22),
-              width: double.infinity, // Width of the container
+              width: 336, // Width of the container
               height: 99.0, // Height of the container
               decoration: BoxDecoration(
                 color: Color(0xffFFFFFF), // Background color
@@ -129,7 +129,7 @@ class Nutritionist_page extends StatelessWidget {
             SizedBox(height: 11),
             Container(
               margin: EdgeInsets.only(left: 22),
-              width: double.infinity, // Width of the container
+              width: 336, // Width of the container
               height: 99.0, // Height of the container
               decoration: BoxDecoration(
                 color: Color(0xffFFFFFF), // Background color
@@ -166,13 +166,14 @@ class Nutritionist_page extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              width: 40,
+                              width: 48,
                             ),
                             Icon(
                               Icons.star, // Replace with your desired icon
                               color: Colors.yellow,
                               size: 12, // Change the icon size as needed
                             ),
+                            SizedBox(width: 5),
                             Text(
                               '4.2', // Text content after the icon
                               style: TextStyle(
@@ -234,7 +235,7 @@ class Nutritionist_page extends StatelessWidget {
             SizedBox(height: 11),
             Container(
               margin: EdgeInsets.only(left: 22),
-              width: double.infinity, // Width of the container
+              width: 336, // Width of the container
               height: 99.0, // Height of the container
               decoration: BoxDecoration(
                 color: Color(0xffFFFFFF), // Background color
@@ -271,13 +272,14 @@ class Nutritionist_page extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              width: 60,
+                              width: 66,
                             ),
                             Icon(
                               Icons.star, // Replace with your desired icon
                               color: Colors.yellow,
                               size: 12, // Change the icon size as needed
                             ),
+                            SizedBox(width: 5),
                             Text(
                               '4.1', // Text content after the icon
                               style: TextStyle(
@@ -339,7 +341,7 @@ class Nutritionist_page extends StatelessWidget {
             SizedBox(height: 11),
             Container(
               margin: EdgeInsets.only(left: 22),
-              width: double.infinity, // Width of the container
+              width: 336, // Width of the container
               height: 99.0, // Height of the container
               decoration: BoxDecoration(
                 color: Color(0xffFFFFFF), // Background color
@@ -376,13 +378,14 @@ class Nutritionist_page extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              width: 100,
+                              width: 108,
                             ),
                             Icon(
                               Icons.star, // Replace with your desired icon
                               color: Colors.yellow,
                               size: 12, // Change the icon size as needed
                             ),
+                            SizedBox(width: 5),
                             Text(
                               '4.0', // Text content after the icon
                               style: TextStyle(
@@ -444,7 +447,7 @@ class Nutritionist_page extends StatelessWidget {
             SizedBox(height: 11),
             Container(
               margin: EdgeInsets.only(left: 22),
-              width: double.infinity, // Width of the container
+              width: 336, // Width of the container
               height: 99.0, // Height of the container
               decoration: BoxDecoration(
                 color: Color(0xffFFFFFF), // Background color
@@ -481,13 +484,14 @@ class Nutritionist_page extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              width: 106,
+                              width: 114,
                             ),
                             Icon(
                               Icons.star, // Replace with your desired icon
                               color: Colors.yellow,
                               size: 12, // Change the icon size as needed
                             ),
+                            SizedBox(width: 5),
                             Text(
                               '4.2', // Text content after the icon
                               style: TextStyle(
@@ -549,7 +553,7 @@ class Nutritionist_page extends StatelessWidget {
             SizedBox(height: 11),
             Container(
               margin: EdgeInsets.only(left: 22),
-              width: double.infinity, // Width of the container
+              width: 336, // Width of the container
               height: 99.0, // Height of the container
               decoration: BoxDecoration(
                 color: Color(0xffFFFFFF), // Background color
@@ -586,13 +590,14 @@ class Nutritionist_page extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              width: 106,
+                              width: 113,
                             ),
                             Icon(
                               Icons.star, // Replace with your desired icon
                               color: Colors.yellow,
                               size: 12, // Change the icon size as needed
                             ),
+                            SizedBox(width: 5),
                             Text(
                               '4.5', // Text content after the icon
                               style: TextStyle(

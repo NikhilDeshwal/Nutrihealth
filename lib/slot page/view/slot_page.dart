@@ -99,6 +99,13 @@ class slot_page extends StatelessWidget {
                           ),
                         ],
                       ),
+                      SizedBox(width: 32),
+                      Column(
+                        children: [
+                          Image.asset('assets/images/like.png',
+                              width: 15, height: 12),
+                        ],
+                      ),
                     ],
                   ),
                 ],

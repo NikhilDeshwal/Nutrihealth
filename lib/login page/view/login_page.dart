@@ -190,37 +190,38 @@ class Login_page extends StatelessWidget {
             ),
             SizedBox(height: 23),
             GestureDetector(
-                onTap: () {
-                  // Replace the code below with the navigation logic to the next page.
-                  // For example, you can use Navigator to push a new route.
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) =>
-                            Home_Page()), // Replace NextPage() with your next page widget.
-                  );
-                },
-                child: Container(
-                  width: 345.0, // Width of the container
-                  height: 54.0, // Height of the container
-                  decoration: BoxDecoration(
-                    color: Color(0xff40A06C), // Background color
-                    borderRadius:
-                        BorderRadius.circular(8.0), // Customize border radius
-                  ),
-                  child: Center(
-                    child: Text(
-                      'Login', // Text content
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Color(0xffFCFCFC),
-                        fontSize: 20,
-                        fontFamily: GoogleFonts.poppins().fontFamily,
-                        fontWeight: FontWeight.w700,
-                      ),
+              onTap: () {
+                // Replace the code below with the navigation logic to the next page.
+                // For example, you can use Navigator to push a new route.
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) =>
+                          HomePage()), // Replace NextPage() with your next page widget.
+                );
+              },
+              child: Container(
+                width: 345.0, // Width of the container
+                height: 54.0, // Height of the container
+                decoration: BoxDecoration(
+                  color: Color(0xff40A06C), // Background color
+                  borderRadius:
+                      BorderRadius.circular(8.0), // Customize border radius
+                ),
+                child: Center(
+                  child: Text(
+                    'Login', // Text content
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Color(0xffFCFCFC),
+                      fontSize: 20,
+                      fontFamily: GoogleFonts.poppins().fontFamily,
+                      fontWeight: FontWeight.w700,
                     ),
                   ),
-                )),
+                ),
+              ),
+            ),
             SizedBox(height: 26),
             GestureDetector(
               onTap: () {

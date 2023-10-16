@@ -3,7 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nutrihealth/appo%20page/view/appo_page.dart';
 
-class book_page extends StatelessWidget {
+class BookPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,7 +25,7 @@ class book_page extends StatelessWidget {
               child: IconButton(
                 icon: SvgPicture.asset(
                   'assets/images/ep_arrow-left-bold (7).svg', // Replace with the actual path to your SVG asset
-                  color: Color(0xFF123144),
+                  color: Color(0xff000000),
                   height: 16, // Set the height property to 16
                   width: 16, // Set the width property to 16
                 ),
@@ -70,15 +70,23 @@ class book_page extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              child: Text(
-                                'Dr. Aayushi verma', // Text content
-                                textAlign: TextAlign.left,
-                                style: TextStyle(
-                                  color: Color(0xff1D1D1D),
-                                  fontSize: 18,
-                                  fontFamily: GoogleFonts.rubik().fontFamily,
-                                  fontWeight: FontWeight.w500,
-                                ),
+                              child: Row(
+                                children: [
+                                  Text(
+                                    'Dr. Aayushi verma', // Text content
+                                    textAlign: TextAlign.left,
+                                    style: TextStyle(
+                                      color: Color(0xff1D1D1D),
+                                      fontSize: 18,
+                                      fontFamily:
+                                          GoogleFonts.rubik().fontFamily,
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                                  ),
+                                  SizedBox(width: 22),
+                                  Icon(Icons.favorite,
+                                      color: Color(0xffFF0000), size: 19)
+                                ],
                               ),
                             ),
                             Container(
@@ -172,7 +180,10 @@ class book_page extends StatelessWidget {
                             );
                           },
                           child: Container(
-                            color: Colors.green,
+                            decoration: BoxDecoration(
+                              color: Color(0xff0EBE7F),
+                              borderRadius: BorderRadius.circular(4.0),
+                            ),
                             width: 112,
                             height: 34,
                             child: Center(
@@ -217,15 +228,23 @@ class book_page extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              child: Text(
-                                'Dr. Abhinav', // Text content
-                                textAlign: TextAlign.left,
-                                style: TextStyle(
-                                  color: Color(0xff1D1D1D),
-                                  fontSize: 18,
-                                  fontFamily: GoogleFonts.rubik().fontFamily,
-                                  fontWeight: FontWeight.w500,
-                                ),
+                              child: Row(
+                                children: [
+                                  Text(
+                                    'Dr. Abhinav', // Text content
+                                    textAlign: TextAlign.left,
+                                    style: TextStyle(
+                                      color: Color(0xff1D1D1D),
+                                      fontSize: 18,
+                                      fontFamily:
+                                          GoogleFonts.rubik().fontFamily,
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                                  ),
+                                  SizedBox(width: 77),
+                                  Icon(Icons.favorite,
+                                      color: Color(0xffFFFFFF), size: 19)
+                                ],
                               ),
                             ),
                             Container(
@@ -308,7 +327,10 @@ class book_page extends StatelessWidget {
                           ],
                         ),
                         Container(
-                          color: Colors.green,
+                          decoration: BoxDecoration(
+                            color: Color(0xff0EBE7F),
+                            borderRadius: BorderRadius.circular(4.0),
+                          ),
                           width: 112,
                           height: 34,
                           child: Center(
@@ -352,15 +374,23 @@ class book_page extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              child: Text(
-                                'Dr. Harsha', // Text content
-                                textAlign: TextAlign.left,
-                                style: TextStyle(
-                                  color: Color(0xff979797),
-                                  fontSize: 18,
-                                  fontFamily: GoogleFonts.rubik().fontFamily,
-                                  fontWeight: FontWeight.w500,
-                                ),
+                              child: Row(
+                                children: [
+                                  Text(
+                                    'Dr. Harsha', // Text content
+                                    textAlign: TextAlign.left,
+                                    style: TextStyle(
+                                      color: Color(0xff979797),
+                                      fontSize: 18,
+                                      fontFamily:
+                                          GoogleFonts.rubik().fontFamily,
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                                  ),
+                                  SizedBox(width: 81),
+                                  Icon(Icons.favorite,
+                                      color: Color(0xffFF0000), size: 19)
+                                ],
                               ),
                             ),
                             Container(
@@ -443,7 +473,10 @@ class book_page extends StatelessWidget {
                           ],
                         ),
                         Container(
-                          color: Colors.green,
+                          decoration: BoxDecoration(
+                            color: Color(0xff0EBE7F),
+                            borderRadius: BorderRadius.circular(4.0),
+                          ),
                           width: 112,
                           height: 34,
                           child: Center(
@@ -487,15 +520,23 @@ class book_page extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              child: Text(
-                                'Dr. Aarogya', // Text content
-                                textAlign: TextAlign.left,
-                                style: TextStyle(
-                                  color: Color(0xff1D1D1D),
-                                  fontSize: 18,
-                                  fontFamily: GoogleFonts.rubik().fontFamily,
-                                  fontWeight: FontWeight.w500,
-                                ),
+                              child: Row(
+                                children: [
+                                  Text(
+                                    'Dr. Aarogya', // Text content
+                                    textAlign: TextAlign.left,
+                                    style: TextStyle(
+                                      color: Color(0xff1D1D1D),
+                                      fontSize: 18,
+                                      fontFamily:
+                                          GoogleFonts.rubik().fontFamily,
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                                  ),
+                                  SizedBox(width: 76),
+                                  Icon(Icons.favorite,
+                                      color: Color(0xffFFFFFF), size: 19)
+                                ],
                               ),
                             ),
                             Container(
@@ -579,6 +620,10 @@ class book_page extends StatelessWidget {
                         ),
                         Container(
                           color: Colors.green,
+                          decoration: BoxDecoration(
+                            color: Color(0xff0EBE7F),
+                            borderRadius: BorderRadius.circular(4.0),
+                          ),
                           width: 112,
                           height: 34,
                           child: Center(

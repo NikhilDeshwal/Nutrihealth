@@ -313,7 +313,7 @@ class Forget_page extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                       builder: (context) =>
-                          Home_Page()), // Replace NextPage() with your next page widget.
+                          HomePage()), // Replace NextPage() with your next page widget.
                 );
               },
               child: Container(

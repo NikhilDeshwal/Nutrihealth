@@ -100,6 +100,13 @@ class appo_page extends StatelessWidget {
                           ),
                         ],
                       ),
+                      SizedBox(width: 32),
+                      Column(
+                        children: [
+                          Image.asset('assets/images/like.png',
+                              width: 15, height: 12),
+                        ],
+                      ),
                     ],
                   ),
                 ],
@@ -124,7 +131,7 @@ class appo_page extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            "Today, 23 june",
+                            "Today, 23 july",
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 color: Color(0xff333333),
@@ -222,7 +229,7 @@ class appo_page extends StatelessWidget {
             SizedBox(height: 67),
             Center(
               child: Text(
-                "Today, 23 june",
+                "Today, 23 july",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     color: Color(0xff222222),
@@ -267,7 +274,7 @@ class appo_page extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(vertical: 16, horizontal: 8),
                   child: Text(
-                    "Next availability on wed, 24 june",
+                    "Next availability on wed, 24 july",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         color: Color(0xffFFFFFF),
