@@ -78,6 +78,7 @@ class FAQPage extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
+                        SizedBox(width: 15.77),
                         Text(
                           "How to create a account?",
                           style: TextStyle(
@@ -98,14 +99,17 @@ class FAQPage extends StatelessWidget {
                       ],
                     ),
                     SizedBox(height: 4.89),
-                    Text(
-                      "Open the  app to get started and\nfollow the steps. Nutri health doesn’t\ncharge a fee to create or maintain\nyour Nutri health main account.",
-                      style: TextStyle(
-                        color: Color(0XFF757575),
-                        fontSize: 14,
-                        fontFamily: GoogleFonts.poppins().fontFamily,
-                        fontWeight: FontWeight.w400,
-                        letterSpacing: 0.25,
+                    Padding(
+                      padding: const EdgeInsets.only(left: 16),
+                      child: Text(
+                        "Open the  app to get started and\nfollow the steps. Nutri health doesn’t\ncharge a fee to create or maintain\nyour Nutri health main account.",
+                        style: TextStyle(
+                          color: Color(0XFF757575),
+                          fontSize: 14,
+                          fontFamily: GoogleFonts.poppins().fontFamily,
+                          fontWeight: FontWeight.w400,
+                          letterSpacing: 0.25,
+                        ),
                       ),
                     ),
                   ],
